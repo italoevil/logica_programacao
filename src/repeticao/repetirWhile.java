@@ -13,11 +13,13 @@ public class repetirWhile {
 		if (numero == 1) {
 			System.out.println("JAVA");
 		}else {
-			while (numero > 0) {
+			numero = 0;
+			do{
 				System.out.println("JAVA");
 				numero--;
-			}
+			}while (numero > 0); 
 		}
+		
 		sc.close();
 	}
 }
